@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --bg-start: [#1c0000];
+  --background-end-rgb: 255, 255, 255;
+  --fg-start:[#ffcc29];
+}
+
+.text-gpt-1{
+  color: #ffcc29; 
+}
+
+.text-gpt-2{
+  color:#1c0000; 
+}
+
+.bg-gpt-2{
+  background-color: #1c0000;
+}
+.bg-gpt-1{
+  background-color: #ffcc29;
+}
+
